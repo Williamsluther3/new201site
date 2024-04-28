@@ -5,7 +5,7 @@ h1 {
 
 section {
     display: inline-block;
-    width: 30%;
+    width: 23%;
     height: 100px;
 }
 
@@ -14,5 +14,12 @@ section {
 }
 
 #Me {
-    width: : 49.9%;
+    width: : 40.9%;
+    height: : 25%
+}
+
+header <script>greetUser</script>{
+    padding-top: 3%
+    padding: bottom 3px;
+    padding-left: 4%;
 }
