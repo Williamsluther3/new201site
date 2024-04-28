@@ -2,3 +2,17 @@
 h1 {
     background-color: rebeccapurple;
 }
+
+section {
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+
+section {
+    background-color: aqua;
+}
+
+#Me {
+    width: : 49.9%;
+}
