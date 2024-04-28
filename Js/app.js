@@ -21,7 +21,8 @@ function greetUser(){
 
 //greetUser();
 codeFellows();
-currentJob();
+jobView();
+stateView();
 
 
 let knowLuther = prompt('Do you know Luther Williams?');
@@ -54,8 +55,6 @@ if (thoughtOnCodeFellows == 'no' || thoughtOnCodeFellows == 'n'){
 }
 
 
-
-
 function codeFellows(thoughtOnCodeFellows){
   if (thoughtOnCodeFellows == 'yes' || thoughtOnCodeFellows == 'y'){
     console.log('codeFellows');
@@ -73,6 +72,57 @@ function codeFellows(thoughtOnCodeFellows){
 let currentJob = prompt('Do you like you currentjob position?');
 currentJob = currentJob.toLowerCase();
 console.log(currentJob);
+
+
+if (currentJob == 'NO' || currentJob == 'N'){
+  alert("It's a good thing you're taking this course");
+}
+
+if (currentJob == 'YES' || currentJob == 'Y'){
+  alert("Ok, so you're looking to move up within the company");
+}
+
+function jobView(currentJob){
+  if (currentJob == 'yes' || currentJob == 'y'){
+    console.log('codeFellows');
+
+    document.write("It's a great thing when you like you job and able to move up within it");
+  }
+  if (currentJob == 'no' || currentJob == 'n'){
+    console.log('codeFellows');
+
+    document.write('Not liking your job can be very stressful,especially when all you think about is getting out');
+  }
+
+}
+
+let currentState = prompt('Do you know Luther Williams?');
+currentState = currentState.toUpperCase();
+console.log(currentState);
+
+
+if (currentState == 'yes' || currentState == 'y'){
+  alert("That's awesome you like where you live");
+}
+
+if (currentState == 'no' || currentState == 'n'){
+  alert("No liking the state you live in sucks, i hope you're able to move");
+}
+
+
+function stateView(currentState){
+  if (currentState == 'yes' || currentState == 'y'){
+    console.log('codeFellows');
+
+    document.write("It's great you like youre state, find away to capitalize off that.");
+  }
+  if (currentState == 'no' || currentState == 'n'){
+    console.log('codeFellows');
+
+    document.write("You don't like it, It's Time Hit the Road Jack");
+  }
+
+}
 
 
 
